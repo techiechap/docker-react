@@ -10,6 +10,6 @@ script:
 deploy:
   provider: azure_web_apps
   region: "Central US"
-  site: "docker-reactajd"
+  site: "docker-reactajd2"
   username: "AZURE_DEPLOYMENT_USER"
   password: "AZURE_DEPLOYMENT_PASSWORD"
