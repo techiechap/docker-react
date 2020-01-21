@@ -11,8 +11,6 @@ deploy:
   provider: azure_web_apps
   region: "Central US"
   app: "docker-reactajd"
-  site: "docker-reactajd.azurewebsites.net"
-  on:
-    branch: master
-username: "$azure_deployment_user"
-password: "$azure_deployment_password"
+  site: "https://docker-reactajd.azurewebsites.net"
+  username: "AZURE_DEPLOYMENT_USER"
+  password: "AZURE_DEPLOYMENT_PASSWORD"
